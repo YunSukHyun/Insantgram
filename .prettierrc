@@ -1,0 +1,11 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "endOfLine": "auto",
+  "bracketSameLine": true,
+  "semi": true,
+  "arrowParens": "always",
+  "jsxSingleQuote": true,
+  "quoteProps": "as-needed",
+  "embeddedLanguageFormatting": "auto"
+}
