@@ -26,13 +26,6 @@
     "dot-notation": "error",
     "no-useless-concat": "error",
     "react/react-in-jsx-scope": "off",
-    "react/function-component-definition": [
-      "error",
-      {
-        "namedComponents": "arrow-function",
-        "unnamedComponents": "arrow-function"
-      }
-    ],
 
     "@typescript-eslint/naming-convention": [
       "error",
