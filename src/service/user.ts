@@ -26,3 +26,12 @@ export const addUser = async ({
     followers: [],
     bookmarks: [],
   });
+
+export const getUserByUsername = (username: string) =>
+  client.fetch(`*[_type == "user" && username == "${username}"]{
+    ...,
+    "id": _id,
+    following[]->{username, image},
+    followers[]->{username, image},
+    "bookmarks": bookmarks[]->_id
+  }`);
