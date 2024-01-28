@@ -18,8 +18,10 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
+    "react-spinners": "^0.13.8",
     "sanity": "3",
-    "styled-components": "6"
+    "styled-components": "6",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/node": "^20",
