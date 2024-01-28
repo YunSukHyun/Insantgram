@@ -35,7 +35,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          {user && <Avatar image={user.image} />}
+          {user && <Avatar image={user.image} size='small' highlight />}
           <li>
             <ColorButton
               text={`Sign ${session ? 'out' : 'in'}`}
